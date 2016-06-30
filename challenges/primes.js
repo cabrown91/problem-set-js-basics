@@ -10,3 +10,15 @@
 */
 
 // YOUR CODE HERE
+function isPrime(n) {
+    for(var i = 2; i < value; i++) {
+        if(n % i === 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+function primes(isPrime) {
+  return isPrime.tostring();
+}
