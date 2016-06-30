@@ -22,3 +22,9 @@
 */
 
 // YOUR CODE HERE
+for (i=5;i>0;i--) {
+  console.log([i]+" bottles of beer on the wall,");
+  console.log([i]+" bottles of beer!");
+  console.log("Take one down and pass it around,");
+  console.log([i-1]+" bottles of beer on the wall...");
+}
