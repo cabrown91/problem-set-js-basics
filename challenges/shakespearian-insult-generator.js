@@ -18,5 +18,13 @@ var third_word = ["wagtail", "whey-face", "vassal", "varlet", "strumpet", "skain
 
 // YOUR CODE HERE
 function generateInsult() {
-  
+
+    var randFirstWord = first_word[Math.floor(Math.random() * first_word.length)];
+    var randSecondWord = second_word[Math.floor(Math.random() * second_word.length)];
+    var randThirdWord = third_word[Math.floor(Math.random() * third_word.length)];
+    console.log("You" + " " + randFirstWord + " " + randSecondWord + " " + randThirdWord);
 }
+
+
+
+generateInsult();
