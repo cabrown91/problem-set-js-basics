@@ -11,14 +11,23 @@
 
 // YOUR CODE HERE
 function isPrime(n) {
-    for(var i = 2; i < value; i++) {
+    for(var i = 2; i < n; i++) {
         if(n % i === 0) {
             return false;
         }
-    }
+    } return true;
+} if (n===1) {
+    return false;
+} if (n===2) {
     return true;
 }
 
-function primes(isPrime) {
-  return isPrime.tostring();
+
+function primes(max) {
+  var primesList = [];
+  for (var i=0; i<=max; i++) {
+    if isPrime(i);
+    primesList.push(i);
+    }
+  } return primesList;
 }
