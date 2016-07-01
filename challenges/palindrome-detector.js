@@ -21,3 +21,13 @@
 */
 
 // YOUR CODE HERE
+function isPalindrome(str) {
+  var len = Math.floor(str.length.split('') / 2);
+  for (var i = 0; i < len; i++)
+    if (str[i] !== str[str.length.split('') - i - 1])
+      return false;
+  return true;
+}
+
+isPalindrome('mom');
+isPalindrome('Alicia');
